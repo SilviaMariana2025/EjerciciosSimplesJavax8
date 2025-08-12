@@ -1,0 +1,10 @@
+import java.util.Scanner;
+
+public class ContarDigitos {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Ingrese un número: ");
+        String num = sc.next();
+        System.out.println("Tiene " + num.length() + " dígitos.");
+    }
+}
